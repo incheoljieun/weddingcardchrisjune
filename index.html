@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--meta-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:title" content="Greeting: Incheol & Jieun" />
+    <meta property="og:description" content="Thank you" />
+    <meta property="og:image" content="./assets/img/photo/10.jpg" />
+
+    <!--favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <!--fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Noto+Sans+KR"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"
+    />
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <ul class="menus">
+        <div class="nav-menu" id="nav-main">
+          <span class="char">#Wedding</span>
+          <span class="emoji">👰💜🤵</span>
+        </div>
+        <div class="nav-menu" id="nav-profile">
+          <span class="char">#Greeting</span>
+          <span class="emoji">💌</span>
+        </div>
+        <div class="nav-menu" id="nav-photo">
+          <span class="char">#Photo</span>
+          <span class="emoji">📷</span>
+        </div>
+        <div class="nav-menu" id="nav-location">
+          <span class="char">#Link</span>
+          <span class="emoji">🚗</span>
+        </div>
+      </ul>
+      <div class="progress"></div>
+    </nav>
+
+    <div class="content">
+      <!-- 메인 -->
+      <div class="pane main">
+        <span class="anchor" id="main"></span>
+        <!-- 꽃, 이름 -->
+        <div class="flower">
+          <div class="names">
+            <span class="name">J I E U N</span>
+            <span class="em">&</span>
+            <span class="name">I N C H E O L</span>
+          </div>
+        </div>
+
+        <!-- 시간, 웨딩홀 -->
+        <div class="schedule">
+          <span class="date">2021년 1월 1일</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 프로필 -->
+      <div class="pane profile">
+        <span class="anchor" id="profile"></span>
+
+        <h2>Greeting</h2>
+
+        <div class="invitation">
+
+          피아노로 하나님을 기쁘게 섬기는 여자와<br/>
+          그 여자를 사랑하는 남자가 있습니다.<br/>
+          기타로 하나님을 찬양하고 사랑하는 남자와<br/>
+          그 남자를 사랑하는 여자가 있습니다.<br/>
+          <br/>
+          올 겨울 주님 안에서, 그 여자와 남자가 만나<br/>
+          인생의 하모니를 시작하려 합니다.<br/><br/>
+          코로나로 함께 하지 못하지만 많은 기도와 격려 감사합니다.<br/>
+        </div>
+
+        <!-- 프로필 사진 -->
+        <div class="pictures">
+          <div class="incheol">
+            <img src="//images.pixieset.com/38532003/63bc2bc0f72d06eb8cb5c9ed38c4684c-xxlarge.jpg" alt="JE_IC_03.jpg">
+          </div>
+          <div class="ring">
+            <img src="./assets/img/wedding-ring.png" alt="" />
+          </div>
+          <div class="jieun">
+            <img src="//images.pixieset.com/38532003/5296b3debebb2c402186bf853ff01b11-large.jpg">
+          </div>
+        </div>
+
+        <!-- 소개 -->
+        <div class="introduction">
+          <div class="relationship">
+            <div class="parents">
+              <span class="father">아버지이름</span>
+              <span class="mother">어머니이름</span>
+            </div>
+            <span class="josa">의 장남</span>
+            <span class="child">종혁</span>
+          </div>
+
+          <div class="relationship">
+            <div class="parents">
+              <span class="father">아버지이름</span>
+              <span class="mother">어머니이름</span>
+            </div>
+            <span class="josa">의 장녀</span>
+            <span class="child">진솔</span>
+          </div>
+        </div>
+
+        <!-- 연락 -->
+          <div class="contacts">
+            <div class="contact">
+              <span>신랑에게 축하 연락하기</span>
+              <a class="tel" href="tel:16471111111"></a>
+          </div>
+
+          <div class="contact">
+            <span>신부에게 축하 연락하기</span>
+            <a class="tel" href="tel:16471111111"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 사진첩 -->
+      <div class="pane photo">
+        <span class="anchor" id="photo"></span>
+
+        <h2>Photo</h2>
+
+        <!-- 갤러리 -->
+        <div class="image-slider">
+          <div class="images"></div>
+        </div>
+        <!-- 모달 -->
+        <div id="modal" class="modal">
+          <div class="dim"></div>
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modal-image" />
+        </div>
+      </div>
+
+      <!-- 링크 -->
+      <div class="pane location">
+        <span class="anchor" id="location"></span>
+
+        <h2>Links</h2>
+
+        <div id="paragraph pane">
+          <p>선물 많이 보내주세요</p>
+          <a href="https://jamesjoostudio98.pixieset.com/jieunandincheol/">사진 더보기</a>
+        </div>
+
+        
+      </div>
+      <div class="pane footer">
+        © 2020 Jieun & Incheol
+      </div>
+    </div>
+    <!--script-->
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=41edd6c6cb3fd24f57ad354551d1064d"
+    ></script>
+    <script src="smoothScroll.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
