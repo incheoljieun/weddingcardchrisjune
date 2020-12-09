@@ -43,7 +43,8 @@ nav .menus {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 13vw;
-  font-size: 4vw;
+  font-size: 7vw;
+  font-family: 'Mr De Haviland', cursive;
 }
 
 nav .menus .emoji {
@@ -87,11 +88,11 @@ nav .progress {
 
 .content .pane h2 {
   margin: 0;
-  font-size: 7vw;
+  font-size: 10vw;
   text-align: center;
   margin-bottom: 3vw;
   margin-top: 5vw;
-  font-family: FlowerRoad;
+  font-family: 'Mr De Haviland', cursive;
 }
 
 .content .divider {
@@ -143,7 +144,9 @@ nav .progress {
 }
 
 .main .flower .names .name {
-  font-size: 12vw;
+  font-size: 15vw;
+  text-transform: capitalize;
+  font-family: 'Mrs Saint Delafield', cursive;
 }
 
 .main .flower .names .em {
@@ -177,7 +180,7 @@ nav .progress {
 
 .profile .invitation {
   text-align: center;
-  font-size: 5vw;
+  font-size: 4.5vw;
   margin: 7vw 16vw 11vw;
   font-family: "777Balsamtint";
 }
