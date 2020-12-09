@@ -319,9 +319,9 @@ nav .progress {
 
 .profile .contacts .contact .tel {
   display: inline-block;
-  width: 6vw;
-  height: 6vw;
-  background-image: url(./assets/img/phone.png);
+  width: 8vw;
+  height: 7vw;
+  /* background-image: url(./assets/img/phone.png); */
   background-repeat: no-repeat;
   background-size: contain;
 }
